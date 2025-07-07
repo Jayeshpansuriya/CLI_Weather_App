@@ -8,7 +8,7 @@ const rl = readline.createInterface({
   output: stdout,
 });
 
-const API_KEY = '';
+const API_KEY = ''; //add your api key here from website below 👇🏻
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 const getWeather = async (city) => {
